@@ -14,24 +14,25 @@ body{
 }
 .gallery{
     position: absolute;
-    outline-offset: 1rem;
+    outline-offset: 0.5rem;
     height: 10rem;
     transition: all 0.3s;
 }
+.heart{
+    top: 13rem;
+    left: 47rem;
+}
 .winter{
     top: 5rem;
-    left: 42%;
-}
-.heart{
-    top: 7rem;
-    left: 12rem;
+    left: 59rem;
 }
 .dog{
-    top: 5rem;
+    top: 7rem;
+    left: 36rem;
 } 
 .gallery:hover {
     transform: scale(1.3);
-    outline: 1rem solid purple;
+    outline: 0.5rem solid purple;
     z-index: 1;
 }
 .gallery-child:hover .gallery:not(:hover){
