@@ -19,7 +19,7 @@ body {
 .gallery {
   position: absolute;
   outline-offset: 0.5rem;
-  height: 10rem;
+  height: 5rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
