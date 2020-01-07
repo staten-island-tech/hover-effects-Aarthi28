@@ -1,0 +1,11 @@
+.chocolate{
+    height: 10rem;
+    transition: all 0.3s;
+    border-radius: 30%;
+}
+
+.chocolate:hover{
+    filter: grayscale(50%);
+    transform: scale(1.5);
+    border-radius: 0;
+}
