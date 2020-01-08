@@ -1,3 +1,12 @@
-.text  {
-    background-image:;
+.text-effect{
+    background-image: url("../media/background.jpg");
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    font-size: 5rem;
+    transition: all 0.3s;
+}
+.text-effect:hover{
+    transform: skewX(5deg);
+    letter-spacing: 3rem;
 }
