@@ -1,5 +1,5 @@
 .gallery-parent {
-  height: 15rem;
+  height: 20rem;
   width: 65rem;
 }
 
@@ -74,8 +74,24 @@
   border-radius: 0;
 }
 
-/* @import "./_alaska.scss";
-@import "./_button.scss"; */
+.alaska {
+  height: 10rem;
+  position: relative;
+}
+
+.alaska-pic {
+  height: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.alaska-header {
+  font-size: 2rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+}
+
 .container {
   font-size: 62.5%;
   padding: 0;
