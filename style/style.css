@@ -44,7 +44,7 @@
 }
 
 .text-effect {
-  background-image: url("../media/background.jpg");
+  background-image: url("../media/background3.jpg");
   background-position: center;
   color: transparent;
   background-clip: text;
@@ -114,11 +114,63 @@
           filter: grayscale(80%);
 }
 
+.button,
+.button:link,
+.button:visited {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  -webkit-animation: moveInBottom 0.5s ease-out 0.75s;
+          animation: moveInBottom 0.5s ease-out 0.75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.button:hover {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover::after {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  -webkit-transform: scaleX(2) scaleY(2);
+          transform: scaleX(2) scaleY(2);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.button-color,
+.button-color::after {
+  background-color: purple;
+  color: white;
+}
+
 .container {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */
