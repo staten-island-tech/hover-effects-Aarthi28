@@ -1,11 +1,14 @@
 .gallery-parent {
-  height: 20rem;
-  width: 65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 18rem;
+  width: 100%;
+  padding: 2rem;
 }
 
 .gallery-child {
   position: relative;
-  margin: 5rem;
 }
 
 .gallery {
@@ -18,16 +21,16 @@
 
 .heart {
   top: 8rem;
-  left: 47rem;
+  left: 39.5rem;
 }
 
 .winter {
-  left: 59rem;
+  left: 51.5rem;
 }
 
 .dog {
   top: 2rem;
-  left: 36rem;
+  left: 28.5rem;
 }
 
 .gallery:hover {
