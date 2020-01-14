@@ -1,10 +1,14 @@
 .gallery-parent{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 18rem;
     width: 100%;
     padding: 2rem;
 }
 .gallery-child{
+    height: 18rem;
+    width: 20rem;
     position: relative;
 }
 .gallery{
@@ -15,14 +19,14 @@
 }
 .heart{
     top: 8rem;
-    left: 39.5rem;
+    left: 2.5rem;
 }
 .winter{
-    left: 51.5rem;
+    left: 15rem;
 }
 .dog{
     top: 2rem;
-    left: 28.5rem;
+    left: -8rem;
 } 
 .gallery:hover {
     transform: scale(1.3);

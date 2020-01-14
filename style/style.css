@@ -2,12 +2,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 18rem;
   width: 100%;
   padding: 2rem;
 }
 
 .gallery-child {
+  height: 18rem;
+  width: 20rem;
   position: relative;
 }
 
@@ -21,16 +29,16 @@
 
 .heart {
   top: 8rem;
-  left: 39.5rem;
+  left: 2.5rem;
 }
 
 .winter {
-  left: 51.5rem;
+  left: 15rem;
 }
 
 .dog {
   top: 2rem;
-  left: 28.5rem;
+  left: -8rem;
 }
 
 .gallery:hover {
