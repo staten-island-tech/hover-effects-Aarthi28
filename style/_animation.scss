@@ -1,0 +1,8 @@
+body{
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse{
+  0% {background-color: purple;}
+  100% {background-color: blue;}
+}

@@ -176,6 +176,29 @@
   color: white;
 }
 
+body {
+  -webkit-animation: pulse 5s infinite;
+          animation: pulse 5s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: purple;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: purple;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
 .container {
   font-size: 62.5%;
   padding: 0;
