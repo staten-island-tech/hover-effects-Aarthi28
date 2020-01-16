@@ -183,19 +183,25 @@ body {
 
 @-webkit-keyframes pulse {
   0% {
-    background-color: purple;
+    background-color: #9E9E9E;
+  }
+  50% {
+    background-color: #6e5248;
   }
   100% {
-    background-color: blue;
+    background-color: #9E9E9E;
   }
 }
 
 @keyframes pulse {
   0% {
-    background-color: purple;
+    background-color: #9E9E9E;
+  }
+  50% {
+    background-color: #6e5248;
   }
   100% {
-    background-color: blue;
+    background-color: #9E9E9E;
   }
 }
 
